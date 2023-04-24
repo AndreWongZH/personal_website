@@ -26,7 +26,7 @@ export default function Projects() {
                     </FeatureProj>
                     <FeatureProj
                         name={"Cander"}
-                        src={"/feature23.jpg"}
+                        src={"/feature2.jpg"}
                         reversed={true}
                         keywords={['flutter', 'firebase', 'google cloud functions', 'typescript']}
                     >
