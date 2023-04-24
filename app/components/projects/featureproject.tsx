@@ -8,7 +8,7 @@ export default function FeatureProj(
     return (
         <div className={`flex ${reversed ? 'flex-row-reverse' : 'flex-row'} relative hide`}>
             <div className="w-[60%]">
-                <Image className="h-96 opacity-40" width={1000} height={500} src={src} alt="" />
+                <Image className="h-96 opacity-40 hover:opacity-90 transition-all" width={1000} height={500} src={src} alt="" />
             </div>
             <div className={`${reversed ? 'left-0 items-start' : 'right-0 items-end'} flex flex-col w-1/3 h-full justify-center absolute gap-6`}>
                 <div className="flex flex-col items-end">

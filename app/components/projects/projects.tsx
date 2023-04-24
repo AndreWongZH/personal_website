@@ -14,7 +14,7 @@ export default function Projects() {
                 <div className="flex flex-col gap-20">
                     <FeatureProj
                         name={"IOT Home"}
-                        src={"/cander/cander.jpg"}
+                        src={"/feature1.png"}
                         keywords={['golang', 'gin', 'nextjs', 'typescript', 'sqlite3']}
                     >
                         <p>
@@ -26,7 +26,7 @@ export default function Projects() {
                     </FeatureProj>
                     <FeatureProj
                         name={"Cander"}
-                        src={"/cander/cander.jpg"}
+                        src={"/feature23.jpg"}
                         reversed={true}
                         keywords={['flutter', 'firebase', 'google cloud functions', 'typescript']}
                     >
@@ -37,7 +37,7 @@ export default function Projects() {
                     </FeatureProj>
                     <FeatureProj
                         name={"Astar Tutors"}
-                        src={"/astar/astar.png"}
+                        src={"/feature3.jpg"}
                         keywords={['typescript', 'react', 'nodejs', 'mongodb']}
                     >
                         <p>

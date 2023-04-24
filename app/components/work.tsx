@@ -8,7 +8,7 @@ import { Transition } from "@headlessui/react";
 
 // ${index == active ? 'visible' : 'hidden'} 
 
-export default function Work() {
+const Work = () => {
     const [active, setActive] = useState(0);
 
     const onButtonClick = (index: number) => {
@@ -130,3 +130,5 @@ export default function Work() {
         </section>
     )
 }
+
+export default Work
