@@ -25,10 +25,10 @@ export default function RootLayout({
                 <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <body
-                className='w-5/6 mx-auto bg-background text-xl text-slate-400 relative'
+                className='w-5/6 mx-auto bg-background text-md lg:text-xl text-slate-400 relative'
             >
                 {children}
-                <div className='fixed left-[3%] bottom-0 flex flex-col items-center justify-center gap-4'>
+                <div className='hidden lg:flex fixed left-[3%] bottom-0 flex flex-col items-center justify-center gap-4'>
                     <Link
                         href="https://www.linkedin.com/in/andre-wong/"
                         target="_blank"

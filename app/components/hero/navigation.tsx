@@ -21,7 +21,7 @@ const NavButton = ({ name, href, children }: { name: string, href: string, child
 
 export default function navigation() {
     return (
-        <div className="flex flex-col" >
+        <div className="flex flex-col hidden lg:flex" >
             <NavButton name={"About"} href="#about">
                 <FaUser />
             </NavButton>

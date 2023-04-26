@@ -3,12 +3,12 @@ import Link from "next/link"
 
 export default function Blog() {
     return (
-        <section id="blog" className="min-h-[60vh] flex flex-col items-center justify-center gap-5 hide mt-10">
-            <div className="flex flex-row gap-3">
+        <section id="blog" className="lg:min-h-[60vh] flex flex-col items-center justify-center gap-5 hide mt-20 lg:mt-10">
+            <div className="lg:max-w-screen-lg flex flex-row gap-3 items-center">
                 <IoDocumentText className="text-highlight" size={45} />
-                <h2 className="text-4xl font-bold text-slate-300"  >Check out my blog post</h2>
+                <h2 className="text-2xl lg:text-4xl font-bold text-slate-300"  >Check out my blog post</h2>
             </div>
-            <div className="w-1/2 text-center">
+            <div className="lg:w-1/2 text-center">
                 <p className="mb-2">
                     I also enjoy writing about my personal projects and sharing my knowledge with others.
                 </p>

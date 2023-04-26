@@ -1,7 +1,7 @@
 export default function introduction() {
     return (
-        <div className="flex flex-col w-1/2">
-            <div className="text-5xl text-slate-200">
+        <div className="mt-10 flex flex-col lg:w-1/2">
+            <div className="text-3xl lg:text-5xl text-slate-200">
                 <p className="header-one my-4">
                     <span className="letter-animate">H</span>
                     <span className="letter-animate">i</span>
@@ -27,7 +27,7 @@ export default function introduction() {
                     <span className="letter-animate">.</span>
                 </p>
             </div>
-            <p className="w-2/3 pt-6">
+            <p className="lg:w-2/3 pt-6 text-lg">
                 Hello! I&apos;m a software developer based in Singapore with a passion for exploring and creating exciting new projects
             </p>
         </div>

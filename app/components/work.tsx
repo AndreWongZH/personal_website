@@ -36,7 +36,7 @@ const Work = () => {
                 leaveTo="opacity-0"
 
             >
-                <div className={`flex flex-col gap-5 w-2/3`}>
+                <div className={`flex flex-col gap-5 lg:w-2/3`}>
 
                     <div>
                         <div className="flex flex-row gap-2">
@@ -56,25 +56,25 @@ const Work = () => {
     const buttonLabel = ['GovTech', 'Iron Drone', 'The Iterative Collective'];
 
     return (
-        <section id="work" className="h-screen flex items-center justify-center">
-            <div className="w-2/3 h-3/4 flex flex-col justify-start hide relative">
+        <section id="work" className="my-10 lg:h-screen flex items-center justify-center">
+            <div className="lg:max-w-screen-lg lg:w-2/3 lg:h-3/4 flex flex-col justify-start hide relative">
                 <div className="flex flex-row gap-3 items-center mb-10">
                     <MdWork className="text-highlight" size={40} />
-                    <h2 className="text-3xl font-bold text-slate-300" >Where I&apos;ve Worked</h2>
+                    <h2 className="text-xl lg:text-3xl font-bold text-slate-300" >Where I&apos;ve Worked</h2>
                 </div>
-                <div className="flex flex-row gap-10">
-                    <div className="flex flex-col w-1/5">
+                <div className="flex flex-col lg:flex-row lg:gap-10">
+                    <div className="flex flex-row lg:flex-col lg:w-1/5">
                         {
                             buttonLabel.map((label, index) => (
                                 <button
-                                    className={`${index == active ? 'border-highlight text-highlight' : 'border-background-light'} px-5 py-3 border-l-4 border-t-0 border-b-0 border-r-0 hover:bg-background-light text-left transition-all`}
+                                    className={`${index == active ? 'border-highlight text-highlight' : 'border-background-light'} px-2 lg:px-5 py-1 lg:py-3 border-l-0 lg:border-l-4 border-t-0 lg:border-b-0 border-b-2 border-r-0 hover:bg-background-light text-center lg:text-left transition-all flex-1 lg:flex-initial`}
                                     key={index} onClick={() => onButtonClick(index)}>
                                     {label}
                                 </button>
                             ))
                         }
                     </div>
-                    <div className="flex flex-col w-4/5">
+                    <div className="flex flex-col lg:w-4/5">
                         <JobDetails
                             index={0}
                             title={"Software Engineer Intern"}

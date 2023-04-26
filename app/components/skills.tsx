@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SkillTile = ({ src }: { src: string }) => {
     return (
-        <div className="bg-background-light w-28 h-28 rounded-lg m-2 flex items-center justify-center" >
+        <div className="bg-background-light w-16 h-16 lg:w-28 lg:h-28 rounded-lg m-2 flex items-center justify-center" >
             <Image height="100" width="100" alt="" src={src} />
         </div>
     )
@@ -11,11 +11,11 @@ const SkillTile = ({ src }: { src: string }) => {
 
 export default function Skill() {
     return (
-        <section id="skill" className="h-screen flex items-center justify-center">
-            <div className="w-2/3 h-3/4 flex flex-col justify-center hide relative">
+        <section id="skill" className="my-10 lg:h-screen flex items-center justify-center">
+            <div className="lg:max-w-screen-lg lg:w-2/3 lg:h-3/4 flex flex-col justify-center hide relative">
                 <div className="flex flex-row gap-3">
                     <BsTerminalFill className="text-highlight" size={35} />
-                    <h2 className="text-3xl font-bold mb-10 text-slate-300" >Skills Acquired</h2>
+                    <h2 className="text-xl lg:text-3xl font-bold mb-10 text-slate-300" >Skills Acquired</h2>
                 </div>
                 <div className="mb-10 flex flex-col gap-3">
                     <p>Throughout my career as a developer, I have had the opportunity to work with startups and collaborate with talented individuals in creating products for businesses and consumers.</p>
