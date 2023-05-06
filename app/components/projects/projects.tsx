@@ -4,7 +4,7 @@ import FeatureProj from "./featureproject";
 
 export default function Projects() {
     return (
-        <section id="project" className="my-10 lg:min-h-screen flex item-center justify-center text-white">
+        <section id="project" className="my-44 lg:my-10 lg:min-h-screen flex item-center justify-center text-white">
             <div className="mt-20 lg:max-w-screen-lg lg:w-[70%] lg:h-3/4 flex flex-col justify-center">
                 <div className="flex flex-row gap-3 items-center mb-10 hide">
                     <FaFolder className="text-highlight" size={42} />

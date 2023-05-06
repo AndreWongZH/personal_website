@@ -5,7 +5,7 @@ import { SiHashnode } from "react-icons/si";
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col items-center justify-center my-20 lg:mt-10 gap-5 lg:min-h-[60vh] hide">
+        <footer className="flex flex-col items-center justify-center my-44 lg:my-20 lg:mt-10 gap-5 lg:min-h-[60vh] hide">
             <div className="lg:max-w-screen-lg flex flex-row gap-3 items-center">
                 <IoShareSocialSharp className="text-highlight" size={40} />
                 <h2 className="text-2xl lg:text-4xl font-bold text-slate-300" >Reach out to me</h2>

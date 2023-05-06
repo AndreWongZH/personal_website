@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Blog() {
     return (
-        <section id="blog" className="lg:min-h-[60vh] flex flex-col items-center justify-center gap-5 hide mt-20 lg:mt-10">
+        <section id="blog" className="lg:min-h-[60vh] flex flex-col items-center justify-center gap-5 hide my-44 lg:my-10">
             <div className="lg:max-w-screen-lg flex flex-row gap-3 items-center">
                 <IoDocumentText className="text-highlight" size={45} />
                 <h2 className="text-2xl lg:text-4xl font-bold text-slate-300"  >Check out my blog post</h2>

@@ -11,7 +11,7 @@ const SkillTile = ({ src }: { src: string }) => {
 
 export default function Skill() {
     return (
-        <section id="skill" className="my-10 lg:h-screen flex items-center justify-center">
+        <section id="skill" className="my-44 lg:my-0 lg:mb-10 lg:h-screen flex items-center justify-center">
             <div className="lg:max-w-screen-lg lg:w-2/3 lg:h-3/4 flex flex-col justify-center hide relative">
                 <div className="flex flex-row gap-3">
                     <BsTerminalFill className="text-highlight" size={35} />

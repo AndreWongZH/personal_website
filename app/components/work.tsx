@@ -56,13 +56,13 @@ const Work = () => {
     const buttonLabel = ['GovTech', 'Iron Drone', 'The Iterative Collective'];
 
     return (
-        <section id="work" className="my-10 lg:h-screen flex items-center justify-center">
+        <section id="work" className="my-44 lg:my-0 lg:h-screen flex items-center justify-center">
             <div className="lg:max-w-screen-lg lg:w-2/3 lg:h-3/4 flex flex-col justify-start hide relative">
                 <div className="flex flex-row gap-3 items-center mb-10">
                     <MdWork className="text-highlight" size={40} />
                     <h2 className="text-xl lg:text-3xl font-bold text-slate-300" >Where I&apos;ve Worked</h2>
                 </div>
-                <div className="flex flex-col lg:flex-row lg:gap-10">
+                <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
                     <div className="flex flex-row lg:flex-col lg:w-1/5">
                         {
                             buttonLabel.map((label, index) => (
